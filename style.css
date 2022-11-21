@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+}
+
+ul {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #000;
+    font-weight: 1000;
+    transition: .5s ease;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid orangered;
+
+}
+
+.thumbnail ul {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+
+}
+
+.thumbnail ul li {
+    list-style: none;
+    display: block;
+    margin-top: 30px;
+
+}
+
+.thumbnail ul li img {
+    max-width: 200px;
+    transition: .5s ease;
+}
+
+.thumbnail ul li img:hover {
+    transform: translateX(50px);
+}
+
+.display {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+
+}
+
+.display img {
+    max-width: 700px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    max-width: 500px;
+    padding-bottom: 5%;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: aqua;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, .9);
+
+}
+.content h3,p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#path{
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   background: #e5e5e5;
+    clip-path: circle(500px at left 400px);
+    
+}
